@@ -16,10 +16,10 @@
     <h2>Por favor, confirmar asistencia:</h2>
 
     <form class="formulario">
-      Nombre <input type="text" name="name" id="name" />
-      <br />
-      Edad <input type="number" name="age" id="age" />
-      <br />
+      Nombre <input type="text" name="name" id="name">
+      <br>
+      Edad <input type="number" name="age" id="age">
+      <br>
 
       Nacionalidad
       <select name="nationality" id="nationality">
@@ -28,11 +28,13 @@
         <option value="per">Peruana</option>
         <option value="vnzl">Venezolana</option>
       </select>
-      <br />
-      <input type="submit" />
+      <br>
+      <!-- agregamos un ID para conectarlo con JS -->
+      <input type="submit" id="btn_submit"> 
     </form>
 
-    <div>
+    <!-- creamos un ID para conectarlo con JS -->
+    <div id="lista-de-invitados">
       <h2>Lista de invitados</h2>
     </div>
     <!--Script-->
